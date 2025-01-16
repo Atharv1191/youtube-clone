@@ -3,8 +3,8 @@ import './video.css'
 import PlayVideo from '../../components/PlayVideo/PlayVideo'
 import Recomended from '../../components/Recomended/Recomended'
 import { useParams } from 'react-router-dom'
-const Video = () => {
-  const {videoId,categoryId} = useParams()
+const {videoId,categoryId} = useParams()
+const Videoo = () => {
   return (
     <div className='play-container'>
       <PlayVideo videoId={videoId}/>
@@ -13,4 +13,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default Videoo
